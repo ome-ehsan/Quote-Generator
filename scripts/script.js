@@ -52,7 +52,6 @@ button.addEventListener('click', function(){
     const randNum = Math.floor(Math.random() * Object.keys(quotes).length);
     let qt = quotes[randNum].text;
     let qtAuth = quotes[randNum].author;
-    console.log(qt);
     quote.innerText = qt;
     auth.innerText = qtAuth;
 })
