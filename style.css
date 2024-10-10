@@ -1,0 +1,71 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: afacad-flux, sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+    background: url(/monkey_face_surprise_25923_1920x1080.jpg) no-repeat center center/ cover;
+}
+
+.container {
+    height: 500px;
+    width: 600px;
+    /* background-color: antiquewhite;    */
+}
+
+.appName {
+    font-size: 1.4rem;
+    border: solid 2px yellow;
+    border-radius: 5px;
+    padding: 5px 0px;
+    width: 80%;
+    margin: 0px auto;
+    color: white
+}
+
+.quote {
+    font-size: 1.5rem;
+    color: white;
+}
+
+.quoteAuth {
+    font-size: 1.2rem;
+    color:yellow;
+    margin-top: 2px;
+    font-weight: 700;
+    font-style: italic;
+}
+
+.mainContent {
+    height: 200px;
+    border: solid 2px yellow;
+    border-radius: 5px;
+    padding: 20px 20px 0px 20px;
+    width: 80%;
+    margin: 20px auto;
+}
+
+button {
+    height: 30px;
+    width: 20%;
+    margin: 10px auto;
+    border-radius: 5px;
+    border: solid 1px yellow;
+    background-color: yellow;
+    font-weight: 900;
+    color:  black;
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.3);
+}
+
+button:hover {
+    background-color: orange; 
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+    cursor: pointer;
+}
